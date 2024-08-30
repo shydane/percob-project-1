@@ -5,3 +5,17 @@ html{
     box-sizing: border-box;
 }
 
+.background{
+    width: 100%;
+    height: 675px;
+}
+
+.gambar{
+    /* background-color: aqua; */
+    background-image: url(supramk5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
