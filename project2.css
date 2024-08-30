@@ -22,7 +22,7 @@ html{
 }
 
 .text-background{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     text-align: center;
     width: 600px;
     height: 500px;
@@ -32,6 +32,7 @@ html{
 }
 
 .text-background h2{
+    color: rgba(240, 248, 255, 0.63);
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
@@ -39,9 +40,29 @@ html{
 }
 
 .text-background h1{
+    color: rgba(240, 248, 255, 0.63);
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 80px;
+}
+
+.text-background button{
+    background-color: rgb(35, 52, 90);
+    color: rgba(240, 248, 255, 0.63);
+    margin-top: 30px;
+    padding: 10px;
+    width: 180px;
+    height: 70px;
+    font-size: 30px;
+    border: none;
+    outline: 0.125rem solid rgb(35, 52, 90);
+    outline-offset: 0.25rem;
+    transition: 300ms;
+}
+
+.text-background button:hover{
+    background-color: rgba(35, 52, 90, 0.63);
+    color: rgb(240, 248, 255);
 }
