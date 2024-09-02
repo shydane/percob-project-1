@@ -223,7 +223,7 @@ p{
     font-weight: 400;
     font-style: normal;
     font-size: 2.5rem;
-    text-indent: 0.8rem;
+    /* text-indent: 0.8rem; */
 }
 
 .text-content3 h2{
@@ -232,7 +232,7 @@ p{
     font-weight: 700;
     font-style: normal;
     font-size: 3.2rem;
-    text-indent: 0.8rem;
+    /* text-indent: 0.8rem; */
 }
 
 .text-content3 button{
@@ -257,13 +257,13 @@ p{
 }
 
 .text-content3{
-    width: 40%;
+    /* width: 40%; */
     height: 100%;
 }
 
 .gambar-content3{
     /* background-color: blue; */
-    width: 40%;
+    /* width: 40%; */
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -298,3 +298,123 @@ img{
 }
 
 /* content3-akhir */
+
+/* content4-awal */
+
+.judul-content4{
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.judul-content4 h3{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.judul-content4 h2{
+    margin-bottom: 2rem;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.5rem;
+    letter-spacing: 0.5rem;
+}
+
+.card-content4{
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 45rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card1{
+    background-color: rgba(35, 52, 90, 0.404);
+    width: 23rem;
+    height: 45rem;
+    position: relative;
+    border-radius: 10px;
+    transition: 300ms;
+}
+
+.card1:hover{
+    scale: 1.035;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.gambar-content4{
+    height: 55%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.gambar-content4 img{
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.bola-luar{
+    background-color:  rgba(35, 52, 90, 0.404);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 22.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bola-dalem{
+    background-color: aliceblue;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bola-dalem i{
+    font-size: 2.5rem;
+}
+
+.text-content4{
+    text-align: center;
+    margin-top: 4.5rem;
+}
+
+.text-content4 h3{
+    font-size: 1.6rem;
+}
+
+.text-content4 p{
+    margin-top: 1.5rem;
+}
+
+.text-content4 button{
+    background-color:  rgb(35, 52, 90);
+    color:  rgba(240, 248, 255, 0.63);
+    height: 2.5rem;
+    width: 8rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    transition: 300ms;
+    border-radius: 0.6rem;
+    border: none;
+    transition: 300ms;
+}
+
+.text-content4 button:hover{
+    background-color: rgba(35, 52, 90, 0.849);
+    color: rgb(240, 248, 255);
+}
+
+/* content4-akhir */
