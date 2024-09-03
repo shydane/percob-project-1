@@ -118,7 +118,7 @@ html{
 /* content-akhir-atas */
 
 .bungkus-content2-awal{
-    background-color:rgba(240, 248, 255, 0.63);
+    background-color: rgba(211, 229, 245, 0.527);
     /* background-color: aqua; */
     margin: 100px auto;
     width: 90%;
@@ -199,7 +199,7 @@ p{
 /* content3-awal */
 
 .bungkus-content3{
-    background-color: aliceblue;
+    background-color: rgba(211, 229, 245, 0.527);
     width: 100%;
     height: 38rem;
 }
@@ -424,7 +424,7 @@ img{
 .bungkus-penutup{
     background-color: rgba(35, 52, 90, 0.404);
     width: 100%;
-    height: 40rem;
+    height: 50rem;
     margin-top: 13rem;
     display: flex;
     justify-content: space-around;
@@ -456,7 +456,7 @@ img{
 }
 
 .saran{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(211, 229, 245, 0.527);
     width: 40%;
     height: 32rem;
     margin-top: 8rem;
@@ -523,5 +523,48 @@ textarea{
     color: rgb(240, 248, 255);
 }
 
-
 /* penutup akhir */
+
+/* footer */
+
+.ending{
+    background-color: black;
+    padding-top: 6rem;
+    width: 100%;
+    height: 20rem;
+}
+
+.lambang-social{
+    color: aliceblue;
+    margin: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.lambang-social i{
+    transition: 300ms;
+}
+
+.lambang-social i:hover{
+    color: rgb(35, 52, 90);
+}
+
+.text-footer{
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+.footer-h4{
+    text-align: center;
+}
+
+.car-footer{
+    color: rgb(35, 52, 90);
+}
+
+
+
+/* footer-end */
