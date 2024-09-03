@@ -5,6 +5,10 @@ html{
     box-sizing: border-box;
 }
 
+body{
+    background-color:  rgba(100, 123, 143, 0.555);
+}
+
 /* background-start */
 
 .background{
@@ -94,13 +98,13 @@ html{
     width: 25%;
     height: 350px;
     text-align: center;
-    text-indent: 10px;
     transition: 200ms;
 }
 
 .dalem-content-awal:hover{
     background-color: rgba(35, 52, 90, 0.63);
     border-bottom: 0.4rem solid  rgb(0, 0, 0);
+    padding: 1rem;
 }
 
 .icon-awal i{
@@ -113,6 +117,14 @@ html{
 .dalem-content-awal h4{
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.dalem-content-awal P{
+    text-indent: 1rem;
 }
 
 /* content-akhir-atas */
@@ -268,6 +280,10 @@ p{
     display: flex;
     flex-direction: column;
     /* align-items: end; */
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .gambar-content3-1{
@@ -345,6 +361,13 @@ img{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+.card1 h3{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
 .gambar-content4{
     height: 55%;
     object-fit: cover;
@@ -391,6 +414,7 @@ img{
 
 .text-content4 h3{
     font-size: 1.6rem;
+    letter-spacing: 0.2rem;
 }
 
 .text-content4 p{
@@ -428,6 +452,10 @@ img{
     margin-top: 13rem;
     display: flex;
     justify-content: space-around;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .alamat{
@@ -480,11 +508,16 @@ img{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    border-style: none;
 }
 
 .form-penutup{
     background-color:  rgba(35, 52, 90, 0.404);
-    color: rgb(35, 52, 90);
+    color: rgb(8, 35, 95);
     width: 100%;
     /*height: 15%;
     */padding: 0.5rem;
@@ -492,16 +525,24 @@ img{
     font-size: 1.3rem;
     text-indent: 0.5rem;
     border-radius: 0.5rem;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 textarea{
     background-color:  rgba(35, 52, 90, 0.404);
-    color: rgb(35, 52, 90);
+    color: rgb(8, 35, 95);
     /* height: 100px; */
     font-size: 1.3rem;
     text-indent: 0.5rem;
     resize: none;
     border-radius: 0.5rem;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .penutup-button{
@@ -532,6 +573,10 @@ textarea{
     padding-top: 6rem;
     width: 100%;
     height: 20rem;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .lambang-social{
@@ -559,6 +604,8 @@ textarea{
 
 .footer-h4{
     text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.4rem;
 }
 
 .car-footer{
